@@ -56,37 +56,59 @@
   "prizes": [
     {
       "number": 1,
-      "coast": "20.000 kr",
-      "meta": "Gjafakort Miðborgarinnar",
       "list": [
-        ["Reykjavík City Card handa fjölskyldunni"],
-        ["Gjafapakki frá Safnbúðum Reykjavíkur"],
-        ["Menningarkort Reykjavíkur handa fjölskyldunni"],
-        ["Gjafabréf fyrir fjölskylduna í Perluna (2 fullorðnir + 2 börn)"],
-        ["Bókagjöf frá Oslóarborg"]
+        [
+          "Hátíðarpassi á Iceland Airwaves",
+          "Fly Over Iceland fyrir tvo",
+          "Perlan gjafabréf fyrir fjölskylduna",
+          "Menningarkort Reykjavíkur",
+          "Sögusafnið, gjafabréf fyrir fjölskylduna",
+          "Dagatal og veggspjald frá Hönnunarsafninu"
+        ]
       ]
     },
     {
       "number": 2,
-      "coast": "10.000 kr",
-      "meta": "Gjafakort Miðborgarinnar",
       "list": [
-        ["Reykjavík City Card handa fjölskyldunni"],
-        ["Gjafapakki frá Safnbúðum Reykjavíkur"],
-        ["Menningarkort Reykjavíkur handa fjölskyldunni"],
-        ["Gjafabréf í Fjölskyldu- og húsdýragarðinn."],
-        ["Bókagjöf frá Oslóarborg"]
+        [
+          "Hátíðarpassi á Iceland Airwaves",
+          "Fly Over Iceland fyrir tvo",
+          "Tjarnarbíó miði fyrir tvo",
+          "Menningarkort Reykjavíkur",
+          "Þjóðminjasafn Íslands, leiðsögn fyrir 10",
+          "Sögusafnið, gjafabréf"
+        ]
       ]
     },
     {
       "number": 3,
-      "coast": "5.000 kr",
-      "meta": "Gjafakort Miðborgarinnar",
       "list": [
-        ["Reykjavík City Card handa fjölskyldunni"],
-        ["Gjafapakki frá Safnbúðum Reykjavíkur"],
-        ["Menningarkort Reykjavíkur handa fjölskyldunni"],
-        ["Bókagjöf frá Oslóarborg"]
+        [
+          "Tjarnarbíó miði fyrir tvo",
+          "Fly Over Iceland fyrir tvo",
+          "Menningarkort Reykjavíkur",
+          "Bókagjafir frá Listasafni Íslands"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "list": [
+        [
+          "Fly Over Iceland fyrir tvo",
+          "Menningarkort Reykjavíkur",
+          "Dagatal frá Hönnunarsafninu",
+          "Listasafn Reykjavíkur, leiðsögn fyrir 10"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "list": [
+        [
+          "Fly Over Iceland fyrir tvo",
+          "Menningarkort Reykjavíkur"
+        ]
       ]
     }
   ],
