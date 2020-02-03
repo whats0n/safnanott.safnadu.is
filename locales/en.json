@@ -1,0 +1,96 @@
+{
+  "layoutTransitionText": "Find them on map",
+  "preloader": "Locating Christmas Creatures",
+  "nav": {
+    "title": "Hunt for the Christmas Creatures",
+    "greeting": "Hi",
+    "userStatistic": "You have answered <strong>{0} of {1}</strong>",
+    "createUser": "Create new user?"
+  },
+  "tabs": {
+    "creatures": "Museum",
+    "prizes": "Prizes"
+  },
+  "locale": {
+    "en": "English",
+    "is": "ÍSLENSKA"
+  },
+  "intro": {
+    "title": "SAFNANÓTT",
+    "description": [
+      "Safnanótt verður haldin föstudagskvöldið 7. febrúar 2020 en þá opna 54 söfn dyr sínar og bjóða upp á skemmtilega og fjölbreytta dagskrá frá klukkan 18:00 til 23.00. Lögð verður áhersla á að bjóða upp á óhefðbundna viðburði þetta kvöld og veita gestum nýja sýn á söfnin. Íbúar og gestir borgarinnar á öllum aldri geta notið Safnanætur fram eftir kvöldi sér að kostnaðarlausu."
+    ]
+  },
+  "login": {
+    "title": "Submit answer",
+    "description": "To participate, please enter your contact information!",
+    "name": "Name",
+    "phone": "Phone number",
+    "button": "Continue"
+  },
+  "scanner": {
+    "label": "Submit answer",
+    "code": "click to scan the QR Code on the sign or type in your answer below",
+    "processing": "Validating QR code",
+    "answer": "Type in your answer",
+    "button": "Submit"
+  },
+  "success": {
+    "title": "Good job!",
+    "description": "You have answered {0}/{1}",
+    "button": "Back to home"
+  },
+  "errorMessages": {
+    "isRequiredName": "Please enter a name",
+    "isRequiredPhone": "Please enter the phone",
+    "isInvalidPhone": "Please enter the currect phone number",
+    "isRequiredAnswer": "Please enter your answer",
+    "isNotQRCode": "Incorrect picture, we cannot find QR code here. Please try again",
+    "isWrongQRCode": "Incorrect QR code. Please try again"
+  },
+  "creaturesAnswered": "Answered {0} of {1}",
+  "creatureSubmit": "Submit answer",
+  "creatureSubmitted": "Answer submitted",
+  "creatureDirection": "Direction",
+  "prizes": [
+    {
+      "number": 1,
+      "coast": "20.000 kr",
+      "meta": "Gift card for Reykjavík City",
+      "list": [
+        ["Reykjavík City Card for the family"],
+        ["Gift package from Reykjavík Museums"],
+        ["The Reykjavík Culture Pass for the family"],
+        ["Gift certificate for the", "family to Perlan (2 adults + 2 children)"],
+        ["Books gifted by the city of Oslo"]
+      ]
+    },
+    {
+      "number": 2,
+      "coast": "10.000 kr",
+      "meta": "Gift card for Reykjavík City",
+      "list": [
+        ["Reykjavík City Card for the family"],
+        ["Gift package from Reykjavík Museums"],
+        ["The Reykjavík Culture Pass for the family"],
+        ["Gift certificate for the family to Reykjavik family park and zoo"],
+        ["Book gifted by the city of Oslo"]
+      ]
+    },
+    {
+      "number": 3,
+      "coast": "5.000 kr",
+      "meta": "Gift card for Reykjavík City",
+      "list": [
+        ["Reykjavík City Card for the family"],
+        ["Gift package from Reykjavík Museums"],
+        ["The Reykjavík Culture Pass for the family"],
+        ["Book gifted by the city of Oslo"]
+      ]
+    }
+  ],
+  "map": {
+    "title": "Find them on map",
+    "description": "Click here to see your location on map"
+  }
+}
