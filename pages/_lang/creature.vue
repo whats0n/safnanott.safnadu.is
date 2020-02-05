@@ -111,7 +111,7 @@
                     {{ activeCreature.phone }}
                   </a>
                 </div>
-                <div v-if="hasSiteUrl" class="creature__info-text">
+                <!-- <div v-if="hasSiteUrl" class="creature__info-text">
                   <a
                     :href="activeCreature.site"
                     target="_blank"
@@ -119,7 +119,7 @@
                   >
                     Vefsíða
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
