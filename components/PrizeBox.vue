@@ -1,13 +1,17 @@
 <template>
   <div
     :class="{
-      'is-opened': isOpened
+      'is-opened': isOpened || !(coast && meta)
     }"
     class="prize-box"
   >
     <div class="prize-box__container">
-      <div class="prize-box__header" @click.prevent="toggle">
-        <div v-if="number" class="prize-box__number">{{ number }}.</div>
+      <div v-if="number" class="prize-box__number">{{ number }}.</div>
+      <div
+        v-if="coast || meta"
+        class="prize-box__header"
+        @click.prevent="toggle"
+      >
         <div v-if="coast" class="prize-box__coast">{{ coast }}</div>
         <div v-if="meta" class="prize-box__meta">{{ meta }}</div>
         <svg viewBox="0 0 12 8" class="prize-box__arrow">
@@ -122,9 +126,9 @@ export default {
   }
 
   &__list {
-    padding: pxToRem(16) pxToRem(41) pxToRem(46) pxToRem(52);
+    padding: pxToRem(16) pxToRem(16) pxToRem(30) pxToRem(52);
     font-size: pxToRem(16);
-    line-height: (19/16);
+    line-height: (22/16);
 
     @include mq-tablet {
       display: none;

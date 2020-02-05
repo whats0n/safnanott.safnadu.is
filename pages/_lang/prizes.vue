@@ -3,7 +3,7 @@
     <div class="prizes__container">
       <div class="prizes__row">
         <div v-for="item in prizes" :key="item.number" class="prizes__col">
-          <PrizeBox v-bind="item" />
+          <PrizeBox v-bind="item" class="prizes__col-in" />
         </div>
       </div>
     </div>
@@ -39,9 +39,10 @@ export default {
 
   &__row {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
-    margin: pxToRem(-41);
+    flex-wrap: wrap;
+    margin: pxToRem(-11) pxToRem(-15);
 
     @include mq-laptop {
       margin: pxToRem(-15);
@@ -54,8 +55,9 @@ export default {
   }
 
   &__col {
-    padding: pxToRem(41);
-    flex: 1 1 auto;
+    display: flex;
+    flex: 0 1 auto;
+    padding: pxToRem(11) pxToRem(15);
     width: 33.33%;
 
     @include mq-laptop {
@@ -64,7 +66,15 @@ export default {
 
     @include mq-tablet {
       padding: pxToRem(7);
+      width: 50%;
+    }
+
+    @include mq-phone-landscape {
       width: 100%;
+    }
+
+    &-in {
+      flex: 1 1 auto;
     }
   }
 }
