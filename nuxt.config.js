@@ -27,7 +27,13 @@ module.exports = {
       },
       { hid: 'twitter:image', name: 'twitter:image', content: image }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-53773496-2',
+        async: true
+      }
+    ]
   },
 
   router: {
