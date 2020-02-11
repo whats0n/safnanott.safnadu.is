@@ -130,6 +130,7 @@ export default {
       //     query: this.$route.query
       //   })
       // })
+      window.location.href = 'https://safnadu.is/'
       this.authCheck()
       this.$nextTick(() => this.isAuthorized && this.requestAnswers())
     })
